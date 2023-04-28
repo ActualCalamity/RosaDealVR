@@ -6,10 +6,10 @@ The second build is for VR. This version offers the Tour for the Meta Quest 2.
 and close it or use the funtion alt + F4 to force close the program.
 
 - We created the virtual environment using Blender. 
-  - We began by making our models with the standard .blender file format, but we later learned that it's better to export as a .FBX file/
+  - We began by making our models with the standard .blender file format, but we later learned that it's better to export as a .FBX file.
 
 - When dealing with the user movement we had to make sure that the user would not feel nauseous when moving. This took some testing with multiple different people before we settled on the movement. 
-  - Apart from this, we also had to add collisions. This was to prevent useres from walking through the walls of the virtual environment. By adding mesh colliders to the walls, which is a component provided by Unity, allowed us to fix this problem.
+  - Apart from this, we also had to add collisions. This was to prevent useres from walking through the walls of the virtual environment. By adding mesh colliders to the walls, which is a component provided by Unity, we were able to fix this problem.
 
 - For object interactions, we were able to use the built in grabbable.cs in Unity. Since we needed to add physics to objects which would be affected by grabbable, we used the rigidbody component for this.
 
