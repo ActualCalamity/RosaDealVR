@@ -1,4 +1,4 @@
-# RosaDealVR
+
 ##                                        VR tour of Rosa Deal School of Arts
 -We currently have 2 versions available. A normal PCBuild  that offers the tour with basic Keyboard and mouse controls.
 The second build is for VR. This version offers the Tour for the Meta Quest 2. 
